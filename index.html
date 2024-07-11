@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akansha Chhabra Portfolio</title>
+    <link href="https://fonts.google.com/specimen/Poppins?preview.layout=grid&query=poppins">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(58, 76, 58);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 60px;
+            background-color: rgb(81, 92, 81);
+            font-size: 'bold';
+
+        }
+
+        nav ul {
+            display: flex;
+            /* display content horizontal*/
+            justify-content: space-around;
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            /*remove bullets*/
+            margin: 0 23px;
+            color: white;
+            font-family: sans-serif, 'poppins';
+            font-style: italic;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(186, 186, 246);
+            /*change the color of elements*/
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: red;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%
+        }
+
+        .leftSection {
+            width: 34 px;
+
+            font-size: 30px;
+
+        }
+        .leftSection .buttons{
+            padding: 56px 0;
+
+        }
+        .leftSection .btn{
+            padding: 12px;
+           background-color: rgb(78, 78, 121);
+            color: white;
+            border: 3px solid white;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+
+
+        }
+
+        .Blue {
+            color: rgb(188, 188, 126)
+        }
+
+        #element {
+            color: rgb(188, 188, 126)
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 62vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .img-top {
+            width: 48px;
+            position: relative;
+            top: -30px;
+            left: -10px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 12px;
+
+        }
+
+        footer {
+            background-color: rgb(111, 110, 110);
+           height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding:23px 122px;
+            justify-content: space-evenly;
+        }
+        footer li{
+            list-style: none;
+        }
+        .footer >div{
+            width: 223px ;
+        }
+       footer .footer-rights{
+           text-align: center;
+           color:gray;
+           padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Akansha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact Me!</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Services</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="Blue"> Akansha chhhabra </span>
+                <div>I am software Engineer</div>
+                <div>and i am Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+
+                <div class="vertical"><img class="img-top" src="android-developers.png">
+                    <div class="vertical-title">Aptron Institute Noida - Android Developer Internship(2018)</div>
+                    <div class="vertical-desc"> Android basics, UI/UX design, core components (activities, services),
+                        data storage, networking,
+                        advanced topics (Google Maps, Firebase), project work.</div>
+                </div>
+                <div class="vertical"><img class="img-top" src="sql-database-icon-logo-design-ui-or-ux-app-png.webp">
+                    <div class="vertical-title">Genpact India Pvt Ltd. - Technical Associate(2021-2023)</div>
+                    <div class="vertical-desc"> Worked for Morgan Stanley as a DB Engineer, performing Schema Creation,
+                        Stored Procedures,
+                        Joins, Jobs & Schedulers, and other DDL & DML operations.</div>
+                </div>
+                <div class="vertical"><img class="img-top" src="nmap.png">
+                    <div class="vertical-title">Pentakod Internship-Nmap Tool Scanner(2024)</div>
+                    <div class="vertical-desc">Basics of Nmap, scanning techniques, Nmap Scripting Engine (NSE),
+                        analyzing results, advanced usage, practical projects </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Akansha chhabra's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; www.Akansha's portfolio.com | All rights reserved  
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Android Developer', 'Software Developer', 'Web Developer', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
